@@ -3,6 +3,6 @@ window.onload = function() {
     .then(function(response) {
         return response.json();
     }).then(function(response){
-        document.getElementById('visitorCount').innerText = response.value
+        document.getElementById('visitorCount').innerText = '#'+response.value
     })
 }
