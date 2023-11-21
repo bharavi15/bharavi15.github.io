@@ -10,3 +10,7 @@
 		box-shadow: theme("boxShadow.xl");
 	}
 }
+
+.dark\:hover\:fill-white:hover {
+    fill: #fff;
+  }
