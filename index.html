@@ -7,8 +7,10 @@
 
     <title>Bharavi Lakhote</title>
   </head>
-  <body class="bg-fuchsia-50">
-    <nav class="bg-fuchsia-400 flex justify-between">
+  <body class="bg-fuchsia-50 dark:bg-neutral-800 dark:text-zinc-200">
+    <nav
+      class="bg-fuchsia-400 flex justify-between dark:bg-fuchsia-400 text-zinc-700"
+    >
       <span class="flex items-center text-xl ms-20">Bharavi Lakhote</span>
       <ul class="px-20 py-4 flex space-x-12 justify-end">
         <li class="cursor-pointer"><a href="#home">Home</a></li>
@@ -23,19 +25,19 @@
         <img class="rounded-full h-60" src="/img/dp2.jpg" alt="" srcset="" />
         <div class="flex flex-col items-center">
           <span class="font-mono text-5xl">Bharavi Lakhote</span>
-          <p class="mt-5 text-justify">A motivated Backend Developer</p>
+          <p class="mt-5 text-justify text-lg">A motivated Backend Developer</p>
         </div>
       </div>
       <div id="experience">
         <h1 class="font-mono text-3xl mb-10">Experience</h1>
-        <div>Systems Engineer at Tata Consultancy Services</div>
+        <div class="text-xl">Systems Engineer at Tata Consultancy Services</div>
         <hr />
       </div>
       <div id="projects">
         <h1 class="font-mono text-3xl mb-10">Featured Projects</h1>
         <div id="projectCards" class="flex flex-wrap flex-col space-y-10">
           <div class="flex space-x-10">
-            <div class="flex flex-col w-1/3 card">
+            <div class="flex flex-col w-1/3 card dark:bg-neutral-600">
               <h3 class="text-xl flex space-x-5">
                 <span>Password Manager</span>
                 <a
@@ -50,24 +52,26 @@
               </p>
               <div class="align-bottom mt-auto">
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl dark:text-zinc-700 p-1"
                   href="https://www.electronjs.org/"
                   >&nbsp;Electron&nbsp;</a
                 >
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl dark:text-zinc-700 p-1"
                   href="https://nodejs.org/en/about"
                   >&nbsp;Node.js&nbsp;</a
                 >
-                <a class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</a>
+                <a class="bg-slate-200 rounded-xl dark:text-zinc-700 p-1"
+                  >&nbsp;HTML&nbsp;</a
+                >
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl dark:text-zinc-700 p-1"
                   href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
                   >&nbsp;AES-256&nbsp;</a
                 >
               </div>
             </div>
-            <div class="flex flex-col w-1/3 card">
+            <div class="flex flex-col w-1/3 card dark:bg-neutral-600">
               <h3 class="text-xl flex space-x-5">
                 <span>Blockchain</span>
                 <a
@@ -83,27 +87,29 @@
               </p>
               <div class="align-bottom mt-auto">
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://www.typescriptlang.org/"
                   >&nbsp;Typescript&nbsp;</a
                 >
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://nodejs.org/en/about"
                   >&nbsp;Node.js&nbsp;</a
                 >
-                <a class="bg-slate-200 rounded-xl" href="https://expressjs.com/"
+                <a
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
+                  href="https://expressjs.com/"
                   >&nbsp;Express&nbsp;</a
                 >
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://en.wikipedia.org/wiki/SHA-2"
                   >&nbsp;SHA256&nbsp;</a
                 >
               </div>
             </div>
 
-            <div class="flex flex-col w-1/3 card">
+            <div class="flex flex-col w-1/3 card dark:bg-neutral-600">
               <h3 class="text-xl flex space-x-5">
                 <span>Task Manager</span>
                 <a
@@ -117,20 +123,22 @@
               </p>
               <div class="align-bottom mt-auto">
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://nodejs.org/en/about"
                   >&nbsp;Node.js&nbsp;</a
                 >
-                <a class="bg-slate-200 rounded-xl" href="https://expressjs.com/"
+                <a
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
+                  href="https://expressjs.com/"
                   >&nbsp;Express&nbsp;</a
                 >
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://www.mongodb.com/"
                   >&nbsp;MongoDB&nbsp;</a
                 >
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://mongoosejs.com/"
                   >&nbsp;Mongoose&nbsp;</a
                 >
@@ -154,7 +162,7 @@
         <h1 class="font-mono text-3xl mb-10">Web Projects</h1>
         <div id="projectCards" class="flex flex-wrap flex-col space-y-10">
           <div class="flex space-x-10">
-            <div class="flex flex-col w-1/3 card">
+            <div class="flex flex-col w-1/3 card dark:bg-neutral-600">
               <h3 class="text-xl flex space-x-5">
                 <span>COVID-19 Chart</span>
                 <a href="/covid-19-chart" target="_blank"
@@ -166,17 +174,23 @@
                 any time.
               </p>
               <div class="align-bottom mt-auto">
-                <span class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</span>
-                <span class="bg-slate-200 rounded-xl"
+                <span class="bg-slate-200 rounded-xl text-zinc-700 p-1"
+                  >&nbsp;HTML&nbsp;</span
+                >
+                <span class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   >&nbsp;JavaScript&nbsp;</span
                 >
-                <span class="bg-slate-200 rounded-xl">&nbsp;CSS&nbsp;</span>
-                <a class="bg-slate-200 rounded-xl" href="https://canvasjs.com/"
+                <span class="bg-slate-200 rounded-xl text-zinc-700 p-1"
+                  >&nbsp;CSS&nbsp;</span
+                >
+                <a
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
+                  href="https://canvasjs.com/"
                   >&nbsp;CanvasJS&nbsp;</a
                 >
               </div>
             </div>
-            <div class="flex flex-col w-1/3 card">
+            <div class="flex flex-col w-1/3 card dark:bg-neutral-600">
               <h3 class="text-xl flex space-x-5">
                 <span>Cyber Physical Systems</span>
                 <a href="/cps-show-data" target="_blank"
@@ -189,25 +203,27 @@
               </p>
               <div class="align-bottom mt-auto">
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://www.raspberrypi.org/"
                   >&nbsp;RaspberryPi&nbsp;</a
                 >
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://nodejs.org/en/about"
                   >&nbsp;Node.js&nbsp;</a
                 >
                 <a
-                  class="bg-slate-200 rounded-xl"
+                  class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   href="https://aws.amazon.com/"
                   >&nbsp;AWS&nbsp;</a
                 >
-                <span class="bg-slate-200 rounded-xl">&nbsp;Python&nbsp;</span>
+                <span class="bg-slate-200 rounded-xl text-zinc-700 p-1"
+                  >&nbsp;Python&nbsp;</span
+                >
               </div>
             </div>
 
-            <div class="flex flex-col w-1/3 card">
+            <div class="flex flex-col w-1/3 card dark:bg-neutral-600">
               <h3 class="text-xl flex space-x-5">
                 <span>Shares Average</span>
                 <a href="/Shares-Average" target="_blank"
@@ -219,9 +235,13 @@
                 buying same shares.
               </p>
               <div class="align-bottom mt-auto">
-                <span class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</span>
-                <span class="bg-slate-200 rounded-xl">&nbsp;CSS&nbsp;</span>
-                <span class="bg-slate-200 rounded-xl"
+                <span class="bg-slate-200 rounded-xl text-zinc-700 p-1"
+                  >&nbsp;HTML&nbsp;</span
+                >
+                <span class="bg-slate-200 rounded-xl text-zinc-700 p-1"
+                  >&nbsp;CSS&nbsp;</span
+                >
+                <span class="bg-slate-200 rounded-xl text-zinc-700 p-1"
                   >&nbsp;JavaScript&nbsp;</span
                 >
               </div>
@@ -243,18 +263,22 @@
       <div id="contact">
         <h1 class="font-mono text-3xl mb-10">Contact Me</h1>
 
-        <div class="flex space-x-20">
+        <div class="flex space-x-16">
           <a href="https://www.linkedin.com/in/bharavi-lakhote" target="_blank"
             ><img class="h-20" src="img/linkedin.svg" alt="LinkedIn" srcset=""
           /></a>
           <a href="https://github.com/bharavi15" target="_blank"
-            ><img class="h-20" src="img/github1.svg" alt="GitHub" srcset=""
+            ><img
+              class="h-20 bg-white"
+              src="img/github1.svg"
+              alt="GitHub"
+              srcset=""
           /></a>
         </div>
       </div>
       <div>
         <h1 class="font-mono text-3xl mb-10">
-          Hello visitor<span id="visitorCount"></span>
+          Hello visitor <span id="visitorCount"></span>
         </h1>
       </div>
     </main>
