@@ -6,3 +6,7 @@
 //         document.getElementById('visitorCount').innerText = '#'+response.value
 //     })
 // }
+
+const anchors = document.querySelectorAll("a");
+
+Array.from(anchors).forEach((a) => a.setAttribute("target", "_blank"));
