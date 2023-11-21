@@ -1,109 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="output.css" rel="stylesheet" />
-		<script src="index.js"></script>
-		<title>Bharavi Lakhote</title>
-	</head>
-	<body class="bg-fuchsia-50">
-		<nav class="bg-fuchsia-400 flex justify-between">
-			<span class="flex items-center text-xl ms-20">Bharavi Lakhote</span>
-			<ul class="px-20 py-4 flex space-x-12 justify-end">
-				<li class="cursor-pointer"><a href="#home">Home</a></li>
-				<li class="cursor-pointer"><a href="#experience">Experience</a></li>
-				<li class="cursor-pointer"><a href="#projects">Projects</a></li>
-				<li class="cursor-pointer"><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-		<!-- <h1 class="text-3xl font-bold underline bg-red-100">Hello world!</h1> -->
-		<main class="flex flex-col w-4/5 m-auto space-y-20">
-			<div class="flex justify-center mt-20 space-x-10" id="home">
-				<img class="rounded-full h-60" src="/img/dp2.jpg" alt="" srcset="" />
-				<div class="flex flex-col items-center">
-					<span class="font-mono text-5xl">Bharavi Lakhote</span>
-					<p class="mt-5 text-justify">A motivated Backend Developer</p>
-				</div>
-			</div>
-			<div id="experience">
-				<h1 class="font-mono text-3xl mb-10">Experience</h1>
-				<div>Systems Engineer at Tata Consultancy Services</div>
-				<hr />
-			</div>
-			<div id="projects">
-				<h1 class="font-mono text-3xl mb-10">Featured Projects</h1>
-				<div id="projectCards" class="flex flex-wrap flex-col space-y-10">
-					<div class="flex space-x-10">
-						<div class="flex flex-col w-1/3 card">
-							<h3 class="text-xl flex space-x-5">
-								<span>Password Manager</span>
-								<a
-									href="https://github.com/bharavi15/Password-Manager"
-									target="_blank"
-									><img src="img/link.svg" class="w-7" alt="" srcset=""
-								/></a>
-							</h3>
-							<p class="text-justify mt-5 mb-5 font-mono">
-								An Electron based cross platform desktop application that is
-								used to securely save passwords by using AES-256 Encryption.
-							</p>
-							<div class="align-bottom mt-auto">
-								<span class="bg-slate-200 rounded-xl"
-									>&nbsp;Electron&nbsp;</span
-								>
-								<span class="bg-slate-200 rounded-xl">&nbsp;Node.js&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;AES-256&nbsp;</span>
-							</div>
-						</div>
-						<div class="flex flex-col w-1/3 card">
-							<h3 class="text-xl flex space-x-5">
-								<span>Blockchain</span>
-								<a
-									href="https://github.com/bharavi15/blockchain-js"
-									target="_blank"
-									><img src="img/link.svg" class="w-7" alt="" srcset=""
-								/></a>
-							</h3>
-							<p class="text-justify mt-5 mb-5 font-mono">
-								A Blockchain cryptocurrency implementation that follows all
-								basic principles like Merkle Tree, transaction management and
-								chaining of the blocks.
-							</p>
-							<div class="align-bottom mt-auto">
-								<span class="bg-slate-200 rounded-xl"
-									>&nbsp;Typescript&nbsp;</span
-								>
-								<span class="bg-slate-200 rounded-xl">&nbsp;Node.js&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;Express&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;SHA256&nbsp;</span>
-							</div>
-						</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <title>Bharavi Lakhote</title>
+  </head>
+  <body class="bg-fuchsia-50">
+    <nav class="bg-fuchsia-400 flex justify-between">
+      <span class="flex items-center text-xl ms-20">Bharavi Lakhote</span>
+      <ul class="px-20 py-4 flex space-x-12 justify-end">
+        <li class="cursor-pointer"><a href="#home">Home</a></li>
+        <li class="cursor-pointer"><a href="#experience">Experience</a></li>
+        <li class="cursor-pointer"><a href="#projects">Projects</a></li>
+        <li class="cursor-pointer"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- <h1 class="text-3xl font-bold underline bg-red-100">Hello world!</h1> -->
+    <main class="flex flex-col w-4/5 m-auto space-y-20">
+      <div class="flex justify-center mt-20 space-x-10" id="home">
+        <img class="rounded-full h-60" src="/img/dp2.jpg" alt="" srcset="" />
+        <div class="flex flex-col items-center">
+          <span class="font-mono text-5xl">Bharavi Lakhote</span>
+          <p class="mt-5 text-justify">A motivated Backend Developer</p>
+        </div>
+      </div>
+      <div id="experience">
+        <h1 class="font-mono text-3xl mb-10">Experience</h1>
+        <div>Systems Engineer at Tata Consultancy Services</div>
+        <hr />
+      </div>
+      <div id="projects">
+        <h1 class="font-mono text-3xl mb-10">Featured Projects</h1>
+        <div id="projectCards" class="flex flex-wrap flex-col space-y-10">
+          <div class="flex space-x-10">
+            <div class="flex flex-col w-1/3 card">
+              <h3 class="text-xl flex space-x-5">
+                <span>Password Manager</span>
+                <a
+                  href="https://github.com/bharavi15/Password-Manager"
+                  target="_blank"
+                  ><img src="img/link.svg" class="w-7" alt="" srcset=""
+                /></a>
+              </h3>
+              <p class="text-justify mt-5 mb-5 font-mono">
+                An Electron based cross platform desktop application that is
+                used to securely save passwords by using AES-256 Encryption.
+              </p>
+              <div class="align-bottom mt-auto">
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://www.electronjs.org/"
+                  >&nbsp;Electron&nbsp;</a
+                >
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://nodejs.org/en/about"
+                  >&nbsp;Node.js&nbsp;</a
+                >
+                <a class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</a>
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
+                  >&nbsp;AES-256&nbsp;</a
+                >
+              </div>
+            </div>
+            <div class="flex flex-col w-1/3 card">
+              <h3 class="text-xl flex space-x-5">
+                <span>Blockchain</span>
+                <a
+                  href="https://github.com/bharavi15/blockchain-js"
+                  target="_blank"
+                  ><img src="img/link.svg" class="w-7" alt="" srcset=""
+                /></a>
+              </h3>
+              <p class="text-justify mt-5 mb-5 font-mono">
+                A Blockchain cryptocurrency implementation that follows all
+                basic principles like Merkle Tree, transaction management and
+                chaining of the blocks.
+              </p>
+              <div class="align-bottom mt-auto">
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://www.typescriptlang.org/"
+                  >&nbsp;Typescript&nbsp;</a
+                >
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://nodejs.org/en/about"
+                  >&nbsp;Node.js&nbsp;</a
+                >
+                <a class="bg-slate-200 rounded-xl" href="https://expressjs.com/"
+                  >&nbsp;Express&nbsp;</a
+                >
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://en.wikipedia.org/wiki/SHA-2"
+                  >&nbsp;SHA256&nbsp;</a
+                >
+              </div>
+            </div>
 
-						<div class="flex flex-col w-1/3 card">
-							<h3 class="text-xl flex space-x-5">
-								<span>Task Manager</span>
-								<a
-									href="https://github.com/bharavi15/Task-Manager-API"
-									target="_blank"
-									><img src="img/link.svg" class="w-7" alt="" srcset=""
-								/></a>
-							</h3>
-							<p class="text-justify mt-5 mb-5 font-mono">
-								A Task Manager backend with Restful APIs
-							</p>
-							<div class="align-bottom mt-auto">
-								<span class="bg-slate-200 rounded-xl">&nbsp;Node.js&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;Express&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;MongoDB&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl"
-									>&nbsp;Mongoose&nbsp;</span
-								>
-							</div>
-						</div>
-					</div>
-					<!-- Uncomment for next row of cards
+            <div class="flex flex-col w-1/3 card">
+              <h3 class="text-xl flex space-x-5">
+                <span>Task Manager</span>
+                <a
+                  href="https://github.com/bharavi15/Task-Manager-API"
+                  target="_blank"
+                  ><img src="img/link.svg" class="w-7" alt="" srcset=""
+                /></a>
+              </h3>
+              <p class="text-justify mt-5 mb-5 font-mono">
+                A Task Manager backend with Restful APIs
+              </p>
+              <div class="align-bottom mt-auto">
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://nodejs.org/en/about"
+                  >&nbsp;Node.js&nbsp;</a
+                >
+                <a class="bg-slate-200 rounded-xl" href="https://expressjs.com/"
+                  >&nbsp;Express&nbsp;</a
+                >
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://www.mongodb.com/"
+                  >&nbsp;MongoDB&nbsp;</a
+                >
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://mongoosejs.com/"
+                  >&nbsp;Mongoose&nbsp;</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Uncomment for next row of cards
 						<div class="flex space-x-10">
 						<div class="w-1/3 card">Hi</div>
 						<div class="w-1/3 card">
@@ -113,77 +147,83 @@
 						</div>
 						<div class="w-1/3 card">Hi</div>
 					</div> -->
-				</div>
-			</div>
+        </div>
+      </div>
 
-			<div id="webProjects">
-				<h1 class="font-mono text-3xl mb-10">Web Projects</h1>
-				<div id="projectCards" class="flex flex-wrap flex-col space-y-10">
-					<div class="flex space-x-10">
-						<div class="flex flex-col w-1/3 card">
-							<h3 class="text-xl flex space-x-5">
-								<span>COVID-19 Chart</span>
-								<a href="/covid-19-chart" target="_blank"
-									><img src="img/link.svg" class="w-7" alt="" srcset=""
-								/></a>
-							</h3>
-							<p class="text-justify mt-5 mb-5 font-mono">
-								A chart displaying the number of COVID cases in any country at
-								any time.
-							</p>
-							<div class="align-bottom mt-auto">
-								<span class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl"
-									>&nbsp;JavaScript&nbsp;</span
-								>
-								<span class="bg-slate-200 rounded-xl">&nbsp;CSS&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl"
-									>&nbsp;CanvasJS&nbsp;</span
-								>
-							</div>
-						</div>
-						<div class="flex flex-col w-1/3 card">
-							<h3 class="text-xl flex space-x-5">
-								<span>Cyber Physical Systems</span>
-								<a href="/cps-show-data" target="_blank"
-									><img src="img/link.svg" class="w-7" alt="" srcset=""
-								/></a>
-							</h3>
-							<p class="text-justify mt-5 mb-5 font-mono">
-								A mini project for showing data recorded in a cyber physical
-								system.
-							</p>
-							<div class="align-bottom mt-auto">
-								<span class="bg-slate-200 rounded-xl"
-									>&nbsp;RaspberryPi&nbsp;</span
-								>
-								<span class="bg-slate-200 rounded-xl">&nbsp;Node.js&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;AWS&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;Python&nbsp;</span>
-							</div>
-						</div>
+      <div id="webProjects">
+        <h1 class="font-mono text-3xl mb-10">Web Projects</h1>
+        <div id="projectCards" class="flex flex-wrap flex-col space-y-10">
+          <div class="flex space-x-10">
+            <div class="flex flex-col w-1/3 card">
+              <h3 class="text-xl flex space-x-5">
+                <span>COVID-19 Chart</span>
+                <a href="/covid-19-chart" target="_blank"
+                  ><img src="img/link.svg" class="w-7" alt="" srcset=""
+                /></a>
+              </h3>
+              <p class="text-justify mt-5 mb-5 font-mono">
+                A chart displaying the number of COVID cases in any country at
+                any time.
+              </p>
+              <div class="align-bottom mt-auto">
+                <span class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</span>
+                <span class="bg-slate-200 rounded-xl"
+                  >&nbsp;JavaScript&nbsp;</span
+                >
+                <span class="bg-slate-200 rounded-xl">&nbsp;CSS&nbsp;</span>
+                <a class="bg-slate-200 rounded-xl" href="https://canvasjs.com/"
+                  >&nbsp;CanvasJS&nbsp;</a
+                >
+              </div>
+            </div>
+            <div class="flex flex-col w-1/3 card">
+              <h3 class="text-xl flex space-x-5">
+                <span>Cyber Physical Systems</span>
+                <a href="/cps-show-data" target="_blank"
+                  ><img src="img/link.svg" class="w-7" alt="" srcset=""
+                /></a>
+              </h3>
+              <p class="text-justify mt-5 mb-5 font-mono">
+                A mini project for showing data recorded in a cyber physical
+                system.
+              </p>
+              <div class="align-bottom mt-auto">
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://www.raspberrypi.org/"
+                  >&nbsp;RaspberryPi&nbsp;</a
+                >
+                <a
+                  class="bg-slate-200 rounded-xl"
+                  href="https://nodejs.org/en/about"
+                  >&nbsp;Node.js&nbsp;</a
+                >
+                <a class="bg-slate-200 rounded-xl" href="https://aws.amazon.com/">&nbsp;AWS&nbsp;</a>
+                <span class="bg-slate-200 rounded-xl">&nbsp;Python&nbsp;</span>
+              </div>
+            </div>
 
-						<div class="flex flex-col w-1/3 card">
-							<h3 class="text-xl flex space-x-5">
-								<span>Shares Average</span>
-								<a href="/Shares-Average" target="_blank"
-									><img src="img/link.svg" class="w-7" alt="" srcset=""
-								/></a>
-							</h3>
-							<p class="text-justify mt-5 mb-5 font-mono">
-								A useful tool to find the future average price of shares after
-								buying same shares.
-							</p>
-							<div class="align-bottom mt-auto">
-								<span class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl">&nbsp;CSS&nbsp;</span>
-								<span class="bg-slate-200 rounded-xl"
-									>&nbsp;JavaScript&nbsp;</span
-								>
-							</div>
-						</div>
-					</div>
-					<!-- Uncomment for next row of cards
+            <div class="flex flex-col w-1/3 card">
+              <h3 class="text-xl flex space-x-5">
+                <span>Shares Average</span>
+                <a href="/Shares-Average" target="_blank"
+                  ><img src="img/link.svg" class="w-7" alt="" srcset=""
+                /></a>
+              </h3>
+              <p class="text-justify mt-5 mb-5 font-mono">
+                A useful tool to find the future average price of shares after
+                buying same shares.
+              </p>
+              <div class="align-bottom mt-auto">
+                <span class="bg-slate-200 rounded-xl">&nbsp;HTML&nbsp;</span>
+                <span class="bg-slate-200 rounded-xl">&nbsp;CSS&nbsp;</span>
+                <span class="bg-slate-200 rounded-xl"
+                  >&nbsp;JavaScript&nbsp;</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Uncomment for next row of cards
 						<div class="flex space-x-10">
 						<div class="w-1/3 card">Hi</div>
 						<div class="w-1/3 card">
@@ -193,26 +233,26 @@
 						</div>
 						<div class="w-1/3 card">Hi</div>
 					</div> -->
-				</div>
-			</div>
+        </div>
+      </div>
 
-			<div id="contact">
-				<h1 class="font-mono text-3xl mb-10">Contact Me</h1>
+      <div id="contact">
+        <h1 class="font-mono text-3xl mb-10">Contact Me</h1>
 
-				<div class="flex space-x-20">
-					<a href="https://www.linkedin.com/in/bharavi-lakhote" target="_blank"
-						><img class="h-20" src="img/linkedin.svg" alt="LinkedIn" srcset=""
-					/></a>
-					<a href="https://github.com/bharavi15" target="_blank"
-						><img class="h-20" src="img/github1.svg" alt="GitHub" srcset=""
-					/></a>
-				</div>
-			</div>
-			<div>
-				<h1 class="font-mono text-3xl mb-10">
-					Hello visitor<span id="visitorCount"></span>
-				</h1>
-			</div>
-		</main>
-	</body>
+        <div class="flex space-x-20">
+          <a href="https://www.linkedin.com/in/bharavi-lakhote" target="_blank"
+            ><img class="h-20" src="img/linkedin.svg" alt="LinkedIn" srcset=""
+          /></a>
+          <a href="https://github.com/bharavi15" target="_blank"
+            ><img class="h-20" src="img/github1.svg" alt="GitHub" srcset=""
+          /></a>
+        </div>
+      </div>
+      <div>
+        <h1 class="font-mono text-3xl mb-10">
+          Hello visitor<span id="visitorCount"></span>
+        </h1>
+      </div>
+    </main>
+  </body>
 </html>
