@@ -15,11 +15,13 @@ var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
 // Change the icons inside the button based on previous settings
-if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    themeToggleLightIcon.classList.remove('hidden');
-} else {
-    themeToggleDarkIcon.classList.remove('hidden');
-}
+// if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+//     document.documentElement.classList.add('dark');
+//     themeToggleDarkIcon.classList.remove('hidden');
+// } else {
+//     themeToggleLightIcon.classList.remove('hidden');
+//     document.documentElement.classList.remove('dark');
+// }
 
 var themeToggleBtn = document.getElementById('theme-toggle');
 
