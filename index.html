@@ -346,9 +346,9 @@
         window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       document.documentElement.classList.add("dark");
-      themeToggleDarkIcon.classList.remove("hidden");
-    } else {
       themeToggleLightIcon.classList.remove("hidden");
+    } else {
+      themeToggleDarkIcon.classList.remove("hidden");
       document.documentElement.classList.remove("dark");
     }
   </script>
